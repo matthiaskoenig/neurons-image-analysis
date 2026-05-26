@@ -1,0 +1,31 @@
+[project]
+name = "neurons-image-analysis"
+version = "0.1.0"
+description = "AI based analysis of neuronal images"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.13.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "bump-my-version>=1.2.4",
+	"ruff>=0.14.0",
+	"pre-commit>=4.0.1",
+	"mypy>=1.18.2",
+    "tox>=4.31.0",
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+]
+
+[project_urls]
+Homepage = "https://github.com/matthiaskoenig/neurons-image-analysis"
+Repository = "https://github.com/matthiaskoenig/neurons-image-analysis"
+Documentation = "https://github.com/matthiaskoenig/neurons-image-analysis"
+Issues = "https://github.com/matthiaskoenig/neurons-image-analysis/issues"
+Download = "https://pypi.org/project/neurons-image-analysis"
+
+
+[tool.hatch.version]
+path = "./src/nia/__init__.py"
