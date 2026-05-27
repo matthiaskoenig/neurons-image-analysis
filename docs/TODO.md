@@ -8,12 +8,20 @@
 - [ ] create data overview
 - [~] match labeled data
 
+- get label points for detecting somas;
+- https://github.com/cvat-ai/cvat
+
+## labeling
+- [ ] semi-automatic labeling of neurons; Create labeled dataset with LabelStudio (https://labelstud.io/guide/labeling); Auto-Annotation with machine learning based model;
+  - https://www.cvat.ai/ CVAT
+
 
 ## image processing pipeline
 - [ ] implement first software pipeline based on transformer models
+- [ ] evaluation on test and trainings data
 
-- [ ]
-- [ ] calculate metrics on segmentations
+## Sholl analysis
+- [ ] calculate metrics on segmented neurons and dentrites
 - [ ] calculate metrics on images
 
 ## reporting

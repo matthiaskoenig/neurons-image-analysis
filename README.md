@@ -14,4 +14,11 @@ histology images of neurons with code available from
 # Funding
 Matthias König was supported by the University of Southern Denmark (SDU), Odense.
 
+
+# Setup
+
+- monai
+- Pillow
+- tqmd
+
 © 2026 Matthias König

@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "neurons-image-analysis"
-version = "0.1.0"
+name = "nia"
+dynamic = ["version"]
 description = "AI based analysis of neuronal images"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -29,6 +29,7 @@ keywords = [
 	"neurons",
 ]
 dependencies = [
+    "monai>=1.5.2",
     "pydantic>=2.13.4",
 ]
 
