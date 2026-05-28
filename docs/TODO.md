@@ -12,8 +12,10 @@
 - https://github.com/cvat-ai/cvat
 
 ## labeling
-- [ ] semi-automatic labeling of neurons; Create labeled dataset with LabelStudio (https://labelstud.io/guide/labeling); Auto-Annotation with machine learning based model;
+- [ ] semi-automatic labeling of neurons; Create labeled dataset;
+  - LabelStudio (https://labelstud.io/guide/labeling); Auto-Annotation with machine learning based model;
   - https://www.cvat.ai/ CVAT
+  - MONAI label  https://project-monai.github.io/core.html#getting-started
 
 
 ## image processing pipeline
